@@ -4,8 +4,10 @@ public class App {
     
     public static void main(String[] args) {
      
-       
-       
+        child Child = new child();
+        output(Child.sayHello());
+        output(Child.sayHello("Jan"));
+
 
     }
 
